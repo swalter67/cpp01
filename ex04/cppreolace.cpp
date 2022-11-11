@@ -5,7 +5,7 @@
 #include <iostream>
 #include "sedloser.hpp"
 
-std::string cppreplace(std::string buffer, std::string s1, std::string const&  s2)
+std::string cppreplace(std::string buffer, std::string s1, std::string  s2)
 {
     std::string dest;
     std::string::size_type i = 0;

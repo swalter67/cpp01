@@ -8,7 +8,7 @@
 #include <iostream>
 #include <fstream>
 
-std::string cppreplace(std::string buffer, std::string s1, std::string const& s2);
+std::string cppreplace(std::string buffer, std::string s1, std::string  s2);
 
 
 #endif //CPP01_SEDLOSER_HPP
