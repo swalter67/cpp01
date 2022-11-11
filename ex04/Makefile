@@ -11,12 +11,11 @@
 # **************************************************************************** #
 
 
-NAME	= zombie
+NAME	= sedloser
 
 SRCS	= main.cpp \
-			HumanA.cpp \
-			HumanB.cpp \
-			Weapon.cpp
+		cppreolace.cpp
+
 
 
 

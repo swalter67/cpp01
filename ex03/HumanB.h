@@ -2,11 +2,28 @@
 // Created by Stephane Walter on 11/10/22.
 //
 
-#ifndef CPP01_HUMANB_H
-#define CPP01_HUMANB_H
+#ifndef HUMANB_H
+#define HUMANB_H
 
+#include <iostream>
+#include "Weapon.h"
 
 class HumanB {
+
+private:
+   std::string _name;
+   Weapon* _weapon;
+
+public:
+
+    HumanB(std::string const& name);
+    ~HumanB();
+
+    void    attack();
+    void    setWeapon(Weapon& weapon);
+
+
+
 
 };
 

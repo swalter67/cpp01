@@ -2,21 +2,22 @@
 // Created by Stephane Walter on 11/10/22.
 //
 
-#ifndef CPP01_WEAPON_H
-#define CPP01_WEAPON_H
+#ifndef WEAPON_H
+#define WEAPON_H
 
+#include <iostream>
 
 class Weapon {
 private:
-    std::string _type;
+    std::string type;
 
 public:
 
-    Weapon(std::string type);
+    Weapon(std::string const& type);
     ~Weapon(void);
 
     std::string const& getType(void);
-    void  setType(std::string type);
+    void  setType(std::string const& newType);
 };
 
 

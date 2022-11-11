@@ -2,19 +2,23 @@
 // Created by Stephane Walter on 11/10/22.
 //
 
-#ifndef CPP01_HUMANA_H
-#define CPP01_HUMANA_H
+#ifndef HUMANA_H
+#define HUMANA_H
 
+#include <iostream>
+#include "Weapon.h"
 
 class HumanA {
 private:
-
+    std::string _name;
+    Weapon& _weapon;
 
 public:
-    HumanA(void);
+    HumanA(std::string const& name, Weapon& first_w);
     ~HumanA(void);
 
 
+    void    attack();
 
 
 
